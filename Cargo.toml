@@ -1,6 +1,6 @@
 [package]
 name = "push-vec"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Yonatan Reicher"]
 edition = "2021"
 description = "A push-only vector type - for getting references to elements and pushing at simultaneously"
