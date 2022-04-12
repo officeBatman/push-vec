@@ -1,0 +1,15 @@
+[package]
+name = "push-vec"
+version = "0.1.0"
+authors = ["Yonatan Reicher"]
+edition = "2021"
+description = "A push-only vector type - for getting references to elements and pushing at simultaneously"
+readme = "README.md"
+homepage = "https://github.com/officeBatman/push-vec"
+repository = "https://github.com/officeBatman/push-vec"
+license = "MIT"
+keywords = ["utility", "vec", "vector"]
+categories = ["data-structures"]
+
+[dependencies]
+serde = { version = "1.0", optional = true, features = ["derive"] }
